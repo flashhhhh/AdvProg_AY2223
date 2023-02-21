@@ -165,7 +165,7 @@ void processData(const char ch, const string& word,
             update incorrectChars: call updateEnteredChars() function
     ***/
 
-    if (/*isCharInWord(ch, word)*/) {
+    if (1/*isCharInWord(ch, word)*/) {
         updateSecretWord(secretWord, ch, word);
         updateEnteredChars(ch, correctChars);
     }
